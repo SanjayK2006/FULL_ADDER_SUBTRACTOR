@@ -37,19 +37,44 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+### Full Adder:
+![Screenshot 2024-03-23 233917](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/68b6f7f5-1d76-46ec-a7ee-259a45cad994)
+
+### Full Subtractor:
+![Screenshot 2024-03-23 233945](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/5a3e012b-20ca-4b24-85b6-e29a45bcee6a)
 
 **Procedure**
-
-Write the detailed procedure here
+  STEP 1: Use module project name(input,output) to start the Verilog programmming.
+  STEP 2: Assign inputs and outputs using the word input and output respectively. 
+  STEP 3: Use defined keywords like wire,assign and required logic gates to represent the boolean expression. 
+  STEP 4: Use each output to represnt onre for differnce and the other for borrow. STEP 5: End the verilog program using keyword endmodule.
 
 **Program:**
-
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+```
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+Developed by:Aadithya.R
+RegisterNumber:212223240001
 */
+```
+### Full Adder:
+![Screenshot 2024-03-23 233955](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/cd0d7f70-36b8-4903-8267-e1eb9a876c38)
+
+### Full Subtractor:
+![Screenshot 2024-03-23 234004](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/db479dd9-112d-4960-8232-7f6b346ba105)
 
 **RTL Schematic**
+### Full Adder:
+![Screenshot 2024-03-23 234012](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/3c5aaf04-0768-4a9f-886b-110ed4ce86ff)
+
+### Full Subtractor:
+![Screenshot 2024-03-23 234018](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/670554df-5e33-49dd-8508-6ea6eba01e18)
 
 **Output Timing Waveform**
+### Full Adder:
+![Screenshot 2024-03-23 234030](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/af1e4b2f-fec6-4d3e-8d0f-80da2823b1fe)
+
+### Full Subtractor:
+![Screenshot 2024-03-23 234044](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/d1be3519-e4c0-4be9-96f5-686011180886)
 
 **Result:**
 
