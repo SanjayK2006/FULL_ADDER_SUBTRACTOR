@@ -57,11 +57,24 @@ RegisterNumber:212223220094
 */
 ```
 ### Full Adder:
-![Screenshot 2024-03-23 233955](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/cd0d7f70-36b8-4903-8267-e1eb9a876c38)
+```
+module EXP3fa(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=a^b^cin;
+assign carry=(a&b)|((a^b) & cin);
+endmodule
+```
 
 ### Full Subtractor:
-![Screenshot 2024-03-23 234004](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/db479dd9-112d-4960-8232-7f6b346ba105)
-
+```
+module EXP4fs(a,b,bin,diff,borr);
+input a,b,bin;
+output diff,borr;
+assign diff=a^b^bin;
+assign borr=((~a)&b) | (b&bin)|((~a)&bin);
+endmodule
+```
 **RTL Schematic**
 ### Full Adder:
 ![Screenshot 2024-03-23 234012](https://github.com/Aadithya2201/FULL_ADDER_SUBTRACTOR/assets/145917810/3c5aaf04-0768-4a9f-886b-110ed4ce86ff)
