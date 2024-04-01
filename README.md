@@ -68,7 +68,7 @@ endmodule
 
 ### Full Subtractor:
 ```
-module EXP4fs(a,b,bin,diff,borr);
+module EXP3fs(a,b,bin,diff,borr);
 input a,b,bin;
 output diff,borr;
 assign diff=a^b^bin;
